@@ -16,9 +16,11 @@ namespace EsSelecta.Controllers
         {
             items = new List<Item>
             {
-                new Item { Name = "Coca-Cola", Code = "A1", Quantity = 10, Price = 1 },
-                new Item { Name = "Chips", Code = "B2", Quantity = 5, Price = 2 },
-                new Item { Name = "Barre chocolatée", Code = "C3", Quantity = 7, Price = 1 }
+                new Item { Name = "Smarlies", Code = "A01", Quantity = 10, Price = 1 },
+                new Item { Name = "Carampar", Code = "A02", Quantity = 5, Price = 2 },
+                new Item { Name = "Avril", Code = "A03", Quantity = 2, Price = 1 },
+                new Item { Name = "KokoKola", Code = "A04", Quantity = 1, Price = 3 }
+
             };
 
             _httpContextAccessor = httpContextAccessor;
